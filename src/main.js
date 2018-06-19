@@ -27,7 +27,7 @@ class App extends React.Component {
         let joke = data.value.joke;
         let cowTalk = say({
           text: joke,
-          cow: GOAT
+          cow: GOAT,
         });
         this.updateState(cowTalk);
       });
